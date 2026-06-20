@@ -131,7 +131,7 @@ int priAllCpuMem(unsigned int delay_us, const char *log_path){
 	//unsigned int loop_num = 2 * 1000;//2小时48分 12M sleep(4);
 	//unsigned int loop_num = 20 * 1000;
 	//unsigned int loop_num = 18 * 1000;//mpsoc 18*1000=35h
-	unsigned int loop_num = 5 * 1000; //12 hours
+	unsigned int loop_num = 3 * 1000; //8 hours
 	//unsigned int loop_num = 10 * 2;
 	FILE *fp_log;
 	
