@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 	unsigned int delay_us = 1000 * 1000;
-	printf("\n### [%s %s]line: %d  \n",__DATE__,__TIME__,__LINE__);
+	printf("##window# [%s %s]line: %d  \n",__DATE__,__TIME__,__LINE__);
 
 	while(1){
 		priAllCpuMem(delay_us,argv[1]);
