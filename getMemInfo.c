@@ -5,7 +5,8 @@
 #include<sys/time.h>
 #include "getMemInfo.h"
 
-
+#define VERSION "1.0.0"
+#define VERSION_DATE "20260830_01"
 //系统的内存信息
 Total_Mem_Info_t get_os_mem(void){
 
