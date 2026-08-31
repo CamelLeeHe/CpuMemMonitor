@@ -9,7 +9,7 @@
 #include "getProcessPid.h"
 #include "getCpuOccupy.h"
 #include "getMemInfo.h"
-
+#define MAIN_TEST_VERSION 1.1
 
 int main(int argc, char *argv[])
 {
