@@ -10,11 +10,15 @@
 #include "getCpuOccupy.h"
 #include "getMemInfo.h"
 
+#define MAIN_TEST_VERSION 1.1
+
+
 void func1_print(void){
 
 	printf("##func1_win# [%s %s]line: %d  \n",__DATE__,__TIME__,__LINE__);
 
 }
+
 
 int main(int argc, char *argv[])
 {
