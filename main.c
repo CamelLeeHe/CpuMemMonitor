@@ -17,6 +17,9 @@ void func1_print(void){
 }
 
 int g_var = 0;
+void func2_printf(void){
+	printf("##develop260901# [%s %s]line: %d  \n",__DATE__,__TIME__,__LINE__);
+}
 
 int main(int argc, char *argv[])
 {

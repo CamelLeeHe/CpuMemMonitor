@@ -20,6 +20,7 @@ Total_Mem_Info_t get_os_mem(void){
     char name[64];
     unsigned int temp;
 	int i = 0;
+	printf("mmd 0621 15:38 get_os_mem test \n");
     for (i = 0; i < MEMINFO_LINE; i++){
 		switch (i)
 		{
