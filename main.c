@@ -16,6 +16,10 @@ void func1_print(void){
 
 }
 
+void func2_printf(void){
+	printf("##develop260901# [%s %s]line: %d  \n",__DATE__,__TIME__,__LINE__);
+}
+
 int main(int argc, char *argv[])
 {
 	time_t current_time;
