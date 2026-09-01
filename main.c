@@ -16,6 +16,8 @@ void func1_print(void){
 
 }
 
+int g_var = 0;
+
 int main(int argc, char *argv[])
 {
 	time_t current_time;
