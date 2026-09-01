@@ -8,7 +8,7 @@
 #include "getCpuOccupy.h"
 #include "getProcessPid.h"
 #include "getMemInfo.h"
-
+static int test_cpu_flag = 0;
 /***************************************************
 * @fun   get_items
 * @brief   以空格为切割，取目标字符串
