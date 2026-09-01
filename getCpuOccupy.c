@@ -9,6 +9,8 @@
 #include "getProcessPid.h"
 #include "getMemInfo.h"
 
+int cpu_ocu = 0;
+
 /***************************************************
 * @fun   get_items
 * @brief   以空格为切割，取目标字符串
