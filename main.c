@@ -10,9 +10,15 @@
 #include "getCpuOccupy.h"
 #include "getMemInfo.h"
 
-void func1_print(void){
-
+void func1_print_tmp2(void){
+	printf("temp 20261126\n");
 	printf("##func1_win# [%s %s]line: %d  \n",__DATE__,__TIME__,__LINE__);
+
+}
+
+void func2_print(void){
+
+	printf("##func2_win# [%s %s]line: %d  \n",__DATE__,__TIME__,__LINE__);
 
 }
 
