@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 	time_t current_time;
 	struct tm *local_t;
 	char time_str[64];
+	func1_print();
 	//char log_bak_buf[64] = "OS_record.log.old";
 	const char *log_bak = "/usr/codesys/hsc3_app/log/OS_record/OS_record.log.old";
 	if(argc != 2){
